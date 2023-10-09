@@ -17,6 +17,7 @@ const CenteredText: React.FC<CenteredTextProps> = ({
     <div className="flex flex-col justify-center items-center h-screen">
       <div className="m-3">
         <Image
+          loading="eager"
           src="/shelter-logo.png"
           width={100}
           height={100}
