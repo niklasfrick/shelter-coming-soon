@@ -15,13 +15,15 @@ const CenteredText: React.FC<CenteredTextProps> = ({
 }) => {
   return (
     <div className="flex flex-col justify-center items-center h-screen">
-      <Image
-        src="/shelter-logo.png"
-        width={100}
-        height={100}
-        alt="Shelter Logo"
-        className="m-3"
-      />
+      <div className="m-3">
+        <Image
+          src="/shelter-logo.png"
+          width={100}
+          height={100}
+          alt="Shelter Logo"
+        />
+      </div>
+
       <div className="text-center">
         <h1 className="text-4xl font-bold">{title}</h1>
         <p className="text-lg text-gray-600">
